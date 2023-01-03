@@ -1,10 +1,13 @@
 # website-deploying-with-apache
+
 ## 1. Log in into the console
+
 I used a user details with administrative privileges that i created to login and i clicked on EC2
 
 ![a1](./pretashop%20image/a1.jpg)
 
 ## 2. Create an instance and connect via SSH
+
 I clicked on launch instance
 
 ![a2](pretashop%20image/a2.jpg)
@@ -22,7 +25,7 @@ The default VPC is used and other configurations are left at default
 
 ![a5](pretashop%20image/a5.jpg)
 
-The instance has been successfully created. So i click on the instance ID 
+The instance has been successfully created. So i click on the instance ID
 
 ![a6](pretashop%20image/a6.jpg)
 
@@ -42,11 +45,11 @@ I open my windows terminal and change directory to where i have the key.pem file
 
 ![a9](pretashop%20image/a9.jpg)
 
-I paste the copied ssh command in this folder as the private key is required to securely connect to the instance remotelye. I typed yes to continue with the connection as shown.
+I paste the copied ssh command in this folder as the private key is required to securely connect to the instance remotely. I typed yes to continue with the connection as shown.
 
 ![a10](pretashop%20image/a10.jpg)
 
-## 3. Setting up configuration of the server and hosting the prestashop website  
+## 3. Setting up configuration of the server and hosting the prestashop website
 
 So i update the server repository to be up to date and upgrade any outdated package
 
@@ -70,7 +73,7 @@ In order to point the apache server to my source code, i change the root directo
 
 ![a16](pretashop%20image/a16.jpg)
 
-I saved the file and restarted apache2, then check the status to see if it is working properly. 
+I saved the file and restarted apache2, then check the status to see if it is working properly.
 The Active (running) shows my apache webserver is good and has no fault
 
 ![a17](pretashop%20image/a17.jpg)
